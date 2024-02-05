@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.457);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    translate: -200px 0;
+    transition: all 350ms ease;
+}
+
+.navBtn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    font-weight: 900;
+    text-align: center;
+    rotate: 90deg;
+    cursor: pointer;
+}
